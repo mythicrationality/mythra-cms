@@ -1,0 +1,15 @@
+.text-main {
+    font-family: serif;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.incantation {
+    font-family: 'Kaushan Script', cursive;
+    color: rgba(3, 7, 11, 0.81);
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0.1; }
+    to   { opacity: 1; }
+}

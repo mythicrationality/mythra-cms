@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Sqlite
+*.db
+
+# Server-specific secret settings
+mythra/local_settings.py

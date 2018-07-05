@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block title %}{% page_attribute "page_title" %}{% endblock title %}
+
+{% block content %}
+    <div style="margin-bottom: 20vh;"></div>
+    <div class="row text-center">
+        {% placeholder "content" %}
+    </div>
+{% endblock content %}
+{% block extra-content %}
+    <footer class="footer">
+        <div class="container">
+            <div class="row text-center text-muted">{% static_placeholder "footer" %}</div>
+        </div>
+    </footer>
+{% endblock extra-content %}
