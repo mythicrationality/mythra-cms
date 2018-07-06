@@ -14,14 +14,12 @@ from mythra import views
 
 admin.autodiscover()
 
+
 urlpatterns = [
     url(r'^sitemap\.xml$', sitemap,
         {'sitemaps': {'cmspages': CMSSitemap}}),
 ]
 
-# urlpatterns += [
-#     url(r'^$', views.index, name='index'),
-# ]
 
 urlpatterns += i18n_patterns(
     url(r'^admin/', include(admin.site.urls)),  # NOQA
