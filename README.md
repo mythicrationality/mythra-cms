@@ -33,6 +33,12 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
+### Compile styles with SASS
+```
+npm i
+npm run build
+```
+
 ### Launch server
 ```bash
 python manage.py runserver

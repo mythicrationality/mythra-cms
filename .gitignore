@@ -106,5 +106,11 @@ venv.bak/
 # Sqlite
 *.db
 
+# Node
+node_modules/
+
 # Server-specific secret settings
 mythra/local_settings.py
+
+# Generated CSS
+mythra/static/mythra/css/site.min.css

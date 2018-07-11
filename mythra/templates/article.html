@@ -7,10 +7,12 @@
 {% block content %}
     {% addtoblock "css" %}
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
-        <link rel="stylesheet" type="text/css" href="{% static 'mythra/css/article.css' %}" />
+        <link rel="stylesheet" type="text/css" href="{% static 'mythra/css/article.css' %}?v=2018-07-11.0" />
     {% endaddtoblock %}
     <div class="row text-main">
-        {% placeholder "content" %}
+        <div class="col-md-12">
+            {% placeholder "content" %}
+        </div>
     </div>
 {% endblock content %}
 

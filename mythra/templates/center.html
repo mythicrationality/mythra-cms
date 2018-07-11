@@ -5,14 +5,16 @@
 
 {% block content %}
     <div style="margin-bottom: 20vh;"></div>
-    <div class="row text-center">
-        {% placeholder "content" %}
+    <div class="row">
+        <div class="col-md-12 text-center">
+            {% placeholder "content" %}
+        </div>
     </div>
 {% endblock content %}
 {% block extra-content %}
     <footer class="footer">
         <div class="container">
-            <div class="row text-center text-muted">{% static_placeholder "footer" %}</div>
+            <div class="row"><div class="col-md-12 text-center text-muted">{% static_placeholder "footer" %}</div></div>
         </div>
     </footer>
 {% endblock extra-content %}
