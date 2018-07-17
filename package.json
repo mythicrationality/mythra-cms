@@ -1,0 +1,16 @@
+{
+  "name": "mythra-cms",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node node_modules/sass/sass.js scss/site.scss --style compressed > mythra/static/mythra/css/site.min.css"
+  },
+  "author": "Mythic Rationality",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
