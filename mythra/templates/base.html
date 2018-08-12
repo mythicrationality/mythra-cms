@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>{% block title %}This is my new project home page{% endblock title %}</title>
+        <title>{% block title %}Mythra{% endblock title %}</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" type="text/css" href="{% static 'mythra/css/site.min.css' %}?v=2018-07-11.0" />
         {% render_block "css" %}
@@ -19,7 +19,10 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                  {% show_menu 0 1 100 100 "menu.html" %}
+                {% show_menu 0 1 100 100 "menu.html" %}
+              </ul>
+              <ul class="navbar-nav ml-auto">
+                {% language_chooser "language-chooser.html" %}
               </ul>
             </div>
           </nav>
