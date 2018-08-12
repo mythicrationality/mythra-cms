@@ -1,0 +1,14 @@
+{% load i18n menu_tags %}
+{% spaceless %}
+<li class="nav-item dropdown small ml-auto">
+    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+        <span>{% trans "Change Language" %}</span>
+        <b class="caret"></b>
+    </a>
+    <div class="dropdown-menu" role="menu">
+    {% for language in languages %}
+        <a class="dropdown-item {% ifequal current_language language.0 %}active{% endifequal %}" href="{% page_language_url language.0 %}" title="{{ language.1 }}">{{ language.0 }}</a>
+    {% endfor %}
+    </div>
+</li>
+{% endspaceless %}

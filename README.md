@@ -28,6 +28,11 @@ cd ..
 python manage.py migrate
 ```
 
+### Compile translations
+```bash
+python manage.py compilemessages
+```
+
 ### Create superuser
 ```bash
 python manage.py createsuperuser

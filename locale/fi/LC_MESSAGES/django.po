@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-12 14:49+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mythra/cms_plugins.py:10
+msgid "Introduction Quote"
+msgstr "Johdantolainaus"
+
+#: mythra/cms_plugins.py:22
+msgid "Incantation"
+msgstr "Inkantaatio"
+
+#: mythra/models.py:8
+msgid "title"
+msgstr "otsikko"
+
+#: mythra/models.py:9
+msgid "quote"
+msgstr "lainaus"
+
+#: mythra/models.py:10
+msgid "page"
+msgstr "sivu"
+
+#: mythra/models.py:14
+msgid "text"
+msgstr "teksti"
+
+#: mythra/settings.py:143 mythra/settings.py:160
+msgid "fi"
+msgstr "fi"
+
+#: mythra/settings.py:144 mythra/settings.py:167
+msgid "en"
+msgstr "en"
+
+#: mythra/templates/_intro_quote.html:7
+msgid "Read More"
+msgstr "Lue Lisää"
+
+#: mythra/templates/language-chooser.html:4
+msgid "Change Language"
+msgstr "Vaihda kieltä"
