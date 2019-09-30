@@ -5,14 +5,17 @@
         <meta charset="utf-8">
         <title>{% block title %}Mythra{% endblock title %}</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="{% static 'mythra/css/site.min.css' %}?v=2018-07-11.0" />
+        <link rel="stylesheet" type="text/css" href="{% static 'mythra/css/site.min.css' %}?v=2018-09-30.0" />
         {% render_block "css" %}
     </head>
     <body>
         {% cms_toolbar %}
         <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/">Mythra</a>
+            <a class="navbar-brand" href="/">
+              <img src="{% static 'mythra/img/ribbon-logo.svg' %}?v=2019-09-30.0" class="ribbon-logo" />
+              Mythra
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
